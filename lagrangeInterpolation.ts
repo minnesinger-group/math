@@ -1,4 +1,4 @@
-import { range } from 'extensions/range';
+import { range } from '@/extensions/range';
 import { factorial } from './combinatorics';
 
 const getDividers = (dx: number, order: number): Array<number> => {
